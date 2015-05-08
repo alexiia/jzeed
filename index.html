@@ -1,0 +1,297 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+<script src="js/Funciones.js" type="text/javascript">
+</script>
+
+</head> 
+<body> 
+
+<div data-role="page" id="Menu">
+	<p>.</p>
+	<p>&nbsp;</p>
+	<div data-role="header">
+	  <h1>Menu principal</h1>
+	</div>
+	<div data-role="content" >	
+		<ul data-role="listview">
+			<li><a href="#Historia" data-transition="flip">Historia de ZEDD</a></li>
+            <li><a href="#Cantantes" data-transition="slidedown" >galeria</a></li>
+			<li><a href="#Fotos" data-transition="pop"> duetos</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" >
+    <h4>Pie de página</h4>
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#Menu" data-transition="slide" data-icon="home">
+          Inicio 
+          
+          </a>
+         </li>
+           <li>
+          <a href="#Ayuda" data-transition="slide" data-icon="info">
+          Ayuda
+          </a>
+         </li>
+          <li>
+          <a href="#Contacto" data-transition="slide" data-icon="alert">
+          Contacto
+          </a>
+         </li>
+         </ul>
+    </div>
+    </div>
+</div>
+
+
+
+<div data-role="page" id="Historia">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> BACK </a>
+		<h1>Página dos</h1>
+	</div>
+	<div data-role="content" align="center">
+    
+    <p>Desliza sobre el cuadro de texto.</p>
+    	<p style="border:1px solid black;height:200px;width;200px;"></p>
+      <p><span style="color:yellow"></span></p>
+    	
+	<a href="#djzeed" data-rel="popup" data-position-to="window">
+    <img src="imagenes/images.jpg" alt="Lea" style="width:100px";></a>
+    
+    <div data-role="popup" id="djzeed">
+     <p>¡ñ.ñ El es zedd:3!</p>
+     <a href="#djzeed" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+     <img src="imagenes/images.jpg" style="width:800px;height:600px;" alt="Lea"> </div>
+
+
+   </div>
+    
+    <table width="250" border="1">
+  <tr bgcolor="#9933CC">
+    <td>Nombre completo</td>
+    <td>Nacimiento</td>
+    <td>Pareja</td>
+    <td>genero</td>
+    <td>Ocupacion</td>
+  </tr>
+  <tr bgcolor="#CC00CC">
+    <td>Anton Zaslavski </td>
+    <td>nacido el 2 de septiembre de 1989 en Rusia</td>
+    <td>selena Gomez</td>
+    <td>electro Hause</td>
+    <td>uno de los mejores djs del mundo</td>
+  </tr>
+</table>
+
+
+
+
+    
+    </center>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#inicio" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+         </li>
+           <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda
+          </a>
+         </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          Contacto
+          </a>
+         </li>
+         </ul>
+	</div>
+    </div>
+</div>
+
+<div data-role="page" id="Fotos">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> BACK </a>
+		<h1>galeria</h1>
+		<p>&nbsp;</p>
+	</div>
+	<div data-role="content">
+    
+    <p id="Usa"></p>
+    	<p style="border:1px solid black;height:200px;width;200px;"></p>
+        <p><span style="color:yellow"></span></p>
+    	
+		Contenido: 
+<center>
+  <table width="470" border="1">
+  <tr>
+    <td height="70" align="center" bgcolor="#33CCFF">Galeria</td>
+    </tr>
+  </table>
+  
+  <table width="607" border="1">
+  <tr>
+    <td width="157"> <img src="imagenes/descarga.jpg" width="173" height="186" alt="V&amp;L"></td>
+    <td width="158"> <img src="imagenes/djS.jpg" width="154" height="183" alt="CBTis"></td>
+    <td width="134"> <img src="imagenes/images (2).jpg" width="144" height="177" alt="Fintis"> </td>
+    <td width="170"> <img src="imagenes/imagezed.jpg" width="179" height="174" alt="Amorsh"></td>
+    
+    </tr>
+</table><p>
+    
+     </div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#Menu" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+         </li>
+           <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda
+          </a>
+         </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          Contacto
+          </a>
+         </li>
+         </ul>
+    </div>
+	</div>
+</div>
+
+<div data-role="page" id="Equipo" >
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> BACK </a>
+		<h1>duetos</h1>
+		<p>&nbsp;</p>
+	</div>
+	<div data-role="content" align="center">
+    
+    <p id="Usa1"></p>
+    	<p style="border:1px solid black;height:200px;width;200px;"></p>
+        <p><span style="color:yellow"></span></p>
+    
+    <a href="#Jordan23" data-rel="popup" data-position-to="window">
+    <img src="imagenes/zeD.jpg" alt="23" style="width:100px";></a>
+    
+    <div data-role="popup" id="Jordan23">
+     <p>¡Michael Jordan :3 ñ.ñ</p>
+     <a href="#Jordan23" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+     <img src="imagenes/zeD.jpg" style="width:600px;height:800px;" alt="23"> </div>	
+		Contenido
+        <center>Anton Zaslavski (nacido el 2 de septiembre de 1989 en Rusia, actualmente radicado en Kaiserslautern, Alemania) más conocido por su nombre artístico Zedd, es un DJ y productor orientado al Electro house. Su sónido tiene influencias del Progressive house, Complextro y el Dubstep. En 2012, ocupó el puesto #51 en la encuesta realizada por la revista DJmag.
+
+ Anton creció dentro de una familia de músicos, y empezó a tocar el piano a los cuatro años de edad. Después de varios años de aprender a tocar el piano hasta llegar a dominarlo, comenzó a tocar la batería, y también compusó y produjó varias canciones en su banda de rock Dioramic.
+
+ En 2009 comenzó a producir música electrónica, con gran éxito y cierta aclamación en la escena. En tan sólo unos meses alcanzó una repercusión notable y pasó a ganar dos concursos de remixes para Beatport, en el “Armand Van Helden / Strictly Rhythm Remix Contest” y el “Fatboy Slim / Skint Remix Contest”! Esto le posibilitó ser requerido para remixar para reconocidos artistas como Lady Gaga, Black Eyed Peas, P. Diddy, Skrillex y Swedish House Mafia incluidos en las discográficas mau5trap, Interscope, Atlantic y EMI.4
+ Su primer EP «The Anthem» ingresó en el Top 20 de las listas de Beatport. Su remix de Scary Monsters and Nice Sprites para Skrillex fue lanzado por el sello Mau5trap, y alcanzó el cuarto puesto en Beatport.
+          
+
+<center>
+<img src="imagenes/zedd dj.jpg" width="275" height="183" alt="11"> </div>
+<div data-role="content">	
+        <table align="center" width="250" border="5" bgcolor="#999999" bordercolor="#FF00FF">
+  <tr>
+    <td>Nombre</td>
+    <td>CANCION</td>
+    
+    </tr>
+  <tr>
+    <td>zeed feat haley williams</td>
+    <td>stay the nigth</td>
+   
+    </tr>
+  <tr>
+    <td height="25">zeed feat matthew koma</td>
+    <td>SPECTRUM</td>
+    
+    </tr>
+  <tr>
+    <td>zeed feat nicky romero</td>
+    <td><p>HUMAN</p></td>
+  
+    </tr>
+  
+</table>
+ <p>
+     <img src="imagenes/dueto.jpg" width="318" height="159" alt="alan"> 
+     <img src="imagenes/duetoO.jpg" width="275" height="183" alt="alonso"> 
+     <img src="imagenes/descarga.jpg" width="218" height="124" alt="jos"> 
+     <img src="imagenes/duetho.jpg" width="344" height="144" alt="bra">
+     <img src="imagenes/images (1).jpg" width="326" height="168" alt="fre"> 
+     <p>
+  </div>
+
+
+<div data-role="footer" data-position="fixed">
+	  <div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#inicio" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+         </li>
+           <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda
+          </a>
+         </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          Contacto
+          </a>
+         </li>
+         </ul>
+    </div>
+	</div>
+</div>
+
+<div data-role="page" id="Ayuda">
+  <div data-role="header">
+    <h1>¡¡¡AYUDA!!!</h1>
+  </div>
+  <div data-role="content">Contenido</div>
+  hola Aqui te podremos ayudar, si la aplicacion tiene algun problema, puede contactar al este numero  2231132066y con mucho gusto lo atenderemos, si usted no nos encuentra en ese numero, puede comunicarse a este correo electronico ach-4ever-28@hotmail.com.<br>
+Gracias por su preferencia.
+  
+  <div data-role="footer">
+    <h4>Pie</h4>
+  </div>
+</div>
+
+
+<div data-role="page" id="contacto">
+  <div data-role="header">
+    <h1>Encabezado</h1>
+  </div>
+  <div data-role="content">Contenido</div>
+  <div data-role="footer">
+    <h4>Pie</h4>
+  </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
